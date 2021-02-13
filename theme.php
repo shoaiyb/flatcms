@@ -105,7 +105,7 @@
 								</ul>
 							</section>
 							<ul class="copyright">
-								<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+								<li><?= $Wcms->footer() ?></li>
 							</ul>
 						</div>
 					</footer>
