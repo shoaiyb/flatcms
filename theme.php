@@ -90,7 +90,7 @@
 										<li><input type="submit" value="Send" class="primary" /></li>
 									</ul>
 								</form>
-							</section> -->
+							</section>
 							<section>
 								<h2>Follow</h2>
 								<ul class="icons">
@@ -103,7 +103,7 @@
 									<li><a href="#" class="icon solid style2 fa-phone"><span class="label">Phone</span></a></li>
 									<li><a href="#" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
 								</ul>
-							</section>
+							</section> -->
 							<ul class="copyright">
 								<li><?= $Wcms->footer() ?></li>
 							</ul>
