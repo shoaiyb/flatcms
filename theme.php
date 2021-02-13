@@ -8,8 +8,8 @@
 	        <meta name="viewport" content="width=device-width, initial-scale=1">
 
                 <title><?= $Wcms->get('config', 'siteTitle') ?> - <?= $Wcms->page('title') ?></title>
-	<meta name="description" content="<?= $Wcms->page('description') ?>">
-	<meta name="keywords" content="<?= $Wcms->page('keywords') ?>">
+	        <meta name="description" content="<?= $Wcms->page('description') ?>">
+	        <meta name="keywords" content="<?= $Wcms->page('keywords') ?>">
 
 	<meta property="og:url" content="<?= $this->url() ?>" />
 	<meta property="og:type" content="website" />
@@ -19,8 +19,8 @@
 	<meta name="twitter:title" content="<?= $Wcms->get('config', 'siteTitle') ?> - <?= $Wcms->page('title') ?>" />
 	<meta name="twitter:description" content="<?= $Wcms->page('description') ?>" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="css/main.css" />
+		<noscript><link rel="stylesheet" href="css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
 		<!-- Wrapper -->
@@ -112,11 +112,11 @@
 			</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+			<script src="js/jquery.min.js"></script>
+			<script src="js/browser.min.js"></script>
+			<script src="js/breakpoints.min.js"></script>
+			<script src="js/util.js"></script>
+			<script src="js/main.js"></script>
 
 	</body>
 </html>
