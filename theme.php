@@ -33,7 +33,7 @@
 
 							<!-- Logo -->
 								<a href="<?= $Wcms->url() ?>" class="logo">
-									<span class="symbol"><img src="images/logo.svg" alt="logo" /></span><span class="title"><?= $Wcms->get('config','siteTitle') ?></span>
+									<!-- <span class="symbol"><img src="images/logo.svg" alt="logo" /></span> --><span class="title"><?= $Wcms->get('config','siteTitle') ?></span>
 								</a>
 
 							<!-- Nav -->
@@ -68,7 +68,7 @@
 				<!-- Footer -->
 					<footer id="footer">
 						<div class="inner">
-							<section>
+							<!-- <section>
 								<h2>Get in touch</h2>
 								<form method="post" action="https://cdn.shoaiybsysa.ga/php/contact_form/action.php">
 									<div class="fields">
@@ -86,7 +86,7 @@
 										<li><input type="submit" value="Send" class="primary" /></li>
 									</ul>
 								</form>
-							</section>
+							</section> -->
 							<section>
 								<h2>Follow</h2>
 								<ul class="icons">
