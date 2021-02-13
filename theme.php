@@ -24,7 +24,11 @@
 		<noscript><link rel="stylesheet" href="<?= $Wcms->asset('css/noscript.css') ?>" /></noscript>
 	</head>
 	<body class="is-preload">
-		<!-- Wrapper -->
+		<!-- Setting's Function -->
+                  <?= $Wcms->settings() ?>
+                  <?= $Wcms->alerts() ?>
+		
+                <!-- Wrapper -->
 			<div id="wrapper">
 
 				<!-- Header -->
