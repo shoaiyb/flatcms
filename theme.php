@@ -1,8 +1,23 @@
+<?php global $Wcms ?>
+
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Generic - Phantom by HTML5 UP</title>
-		<meta charset="utf-8" />
+		<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    	<title><?= $Wcms->get('config', 'siteTitle') ?> - <?= $Wcms->page('title') ?></title>
+	<meta name="description" content="<?= $Wcms->page('description') ?>">
+	<meta name="keywords" content="<?= $Wcms->page('keywords') ?>">
+
+	<meta property="og:url" content="<?= $this->url() ?>" />
+	<meta property="og:type" content="website" />
+	<meta property="og:site_name" content="<?= $Wcms->get('config', 'siteTitle') ?>" />
+	<meta property="og:title" content="<?= $Wcms->page('title') ?>" />
+	<meta name="twitter:site" content="<?= $this->url() ?>" />
+	<meta name="twitter:title" content="<?= $Wcms->get('config', 'siteTitle') ?> - <?= $Wcms->page('title') ?>" />
+	<meta name="twitter:description" content="<?= $Wcms->page('description') ?>" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
