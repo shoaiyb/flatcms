@@ -104,7 +104,7 @@
 								</ul>
 							</section> -->
 							<div class="copyright">
-								<li><?= $Wcms->footer() ?></li>
+								<?= $Wcms->footer() ?>
 							</div>
 						</div>
 					</footer>
