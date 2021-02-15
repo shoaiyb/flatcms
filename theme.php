@@ -23,7 +23,7 @@
 		<?= $Wcms->css() ?>
 		<noscript><link rel="stylesheet" href="<?= $Wcms->asset('css/noscript.css') ?>" /></noscript>
 	</head>
-	<body class="is-preload">
+	<body>
 		<!-- Setting's Function -->
                   <?= $Wcms->settings() ?>
                   <?= $Wcms->alerts() ?>
@@ -63,9 +63,7 @@
 						<div class="inner">
 							<?=wCMS::page('content')?>
 				                </div>
-						<div class="col-xs-12 col-sm-4">
-			                        <div class="visible-xs spacer20"></div>
-			                        <div class="goldBackground padding20 rounded5">
+						<div>
 				                <?=wCMS::block('subside')?>
 			                        </div>
 					</div>
@@ -105,9 +103,9 @@
 									<li><a href="#" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
 								</ul>
 							</section> -->
-							<ul class="copyright">
+							<div class="copyright">
 								<li><?= $Wcms->footer() ?></li>
-							</ul>
+							</div>
 						</div>
 					</footer>
 
